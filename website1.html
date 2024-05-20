@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind-project</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="website1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+
+<body>
+  <!-- nav-bar -->
+
+
+  <header class="text-gray-600 body-font bg-gray-100 ab mb-16">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center "  id="home">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="ml-3 text-4xl text-slate-900">Portfolioweb</span>
+        
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="#home">Home</a>
+        <a class="mr-5  hover:text-gray-900">Blog</a>
+        <a class="mr-5 hover:text-gray-900">About</a>
+        <a class="mr-5 hover:text-gray-900">Services</a>
+        <a class="mr-5 hover:text-gray-900">Contact</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-slate-900 border-0 py-1 px-3 focus:outline-none hover:bg-slate-950  rounded text-white mt-4 md:mt-0 rounded">Button
+
+    </div>
+  </header>
+
+
+  <!-- free hero -->
+
+
+  <div class="hero free flex flex-col-reverse md:flex-row  mx-2 items-center">
+    <div class="left w-1/2 flex flex-col justify-center items-center md:items-baseline py-12"  data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" data-aos-offset="300">
+      <h1 class="mx-5 text-4xl md:font-size-medium ">Build your next great idea in the cloud with an Azure free account
+      </h1>
+      <p class="mx-5  mt-2">Get started with 12 months of free cloud computing services Start free Pay as you go</p>
+      <div class="flex">
+        <button class="rounded py-1 my-6 px-3 bg-black hover:bg-slate-700 text-white">Start free</button>
+        <button class="rounded mx-5 py-1 px-3 my-6  bg-cyan-500 hover:bg-cyan-700 text-white">Pay as you go</button>
+      </div>
+    </div>
+    <div class="right w-1/2 " data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500" data-aos-offset="300">
+      <img src="https://media.licdn.com/dms/image/D4D12AQEZAprTIWdLww/article-cover_image-shrink_720_1280/0/1707425847365?e=2147483647&v=beta&t=sDI2ghJO4iyNhCgHjKtwGeYPl_HnpgTpszc6A1puPqI" alt="">
+    </div>
+  </div>
+
+
+  <!-- services -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class=" text-6xl title-font text-gray-900 mb-4" >Our Package With <span class="text-cyan-500">Premium
+            Features.</span> <br>Everything You’d Expect & More.</h1>
+        <div class="flex mt-6 justify-center">
+          <div class="w-10/12 h-1 rounded-full bg-cyan-500 inline-flex"></div>
+        </div>
+      </div>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6" data-aos="zoom-out" data-aos-offset="300">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-10 h-10" viewBox="0 0 24 24">
+              <path> <img src="../project/html.webp" alt=""> </path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">HTML5</h2>
+            <p class="leading-relaxed text-base">Experience The Power And Versatility Of HTML5, The Latest Evolution Of
+              The Web's Core Markup Language. With HTML5, You Can Create Modern, Interactive, And Multimedia-Rich
+              Websites</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-10 h-10" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path><img src="../project/css.webp" alt=""></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">CSS3</h2>
+            <p class="leading-relaxed text-base">Transform Your Website's Appearance And Functionality With The Power Of
+              CSS3, The Latest Iteration Of Cascading Style Sheets</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-10 h-10" viewBox="0 0 24 24">
+              <path><img src="../project/tailwind.png" alt=""></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">TAILWIND</h2>
+            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+  </section>
+
+
+
+
+
+
+  <!-- slider -->
+
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img width="100%" height="700px" src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1664382119/ComputerScience.org/Person-coding-laptop-computer-desktop-desk-office/Person-coding-laptop-computer-desktop-desk-office.jpg?_i=AA" alt=""></div>
+      <div class="swiper-slide"><img width="100%" height="700px" src="https://www.theforage.com/blog/wp-content/uploads/2022/09/what-is-a-web-developer.jpg" alt=""></div>
+      <div class="swiper-slide"><img width="100%" height="700px" src="https://bairesdev.mo.cloudinary.net/blog/2022/08/portrait-of-a-man-using-a-computer-in-a-modern-office-picture-id1344688156-1.jpg?tx=w_1920,q_auto" alt=""></div>
+      <div class="swiper-slide"><img width="100%" height="700px" src="https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131216/ComputerScience.org/CompSci_Bootcamps_WebDeveloper_FTR_350920adb/CompSci_Bootcamps_WebDeveloper_FTR_350920adb.jpg?_i=AA" alt=""></div>
+      <div class="swiper-slide"><img width="100%" height="700px" src="https://bairesdev.mo.cloudinary.net/blog/2021/09/software-developer-1.jpg?tx=w_1920,q_auto" alt=""></div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- <div class="box">
+
+</div> -->
+
+  <!-- hero -->
+
+  <section class="text-gray-600 body-font ">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center " data-aos="zoom-in-right" data-aos-offset="300">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-slate-700">I'm Full Stack Developer
+
+        </h1>
+        <p class="mb-8 leading-relaxed">A full-stack developer helps build and maintain both the front-end and the
+          back-end of a website. Learn about full-stack developer skills, salary, and how you can become one. A
+          full-stack developer is a developer or engineer who can build both the front end and the back end of a
+          website.</p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg rounded">Download
+            CV</button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg rounded">Hire
+            me!!</button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="zoom-in-left" data-aos-offset="300">
+        <img class="object-cover object-center rounded" alt="hero" src="https://t4.ftcdn.net/jpg/04/43/94/95/360_F_443949516_guxeFkk1XEBx6kU2eJJ0NOuw5K3qQ4Y9.jpg">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- blog -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4 z-0">
+        <div class="p-4 lg:w-1/3 " data-aos="fade-left" data-aos-offset="400">
+          <div class="h-full bg-gray-100  bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative ">
+            <img class="w-96 h-48" src="https://cdn.educba.com/academy/wp-content/uploads/2019/09/What-is-Front-End-Developer.png" alt="">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">BLOG</h2>
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Front End Developer</h1>
+            <p class="leading-relaxed mb-3">A front-end developer creates websites and applications using web languages
+              such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you
+              visit a website, the design elements you see were created by a front-end developer.</p>
+            <a class="text-indigo-500 inline-flex items-center">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <div class="text-center leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+              <span
+                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/3 " data-aos="zoom-out" data-aos-offset="500">
+          <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative   ">
+            <img class="w-96 h-48" src="https://cdn.educba.com/academy/wp-content/uploads/2019/09/What-is-Back-End-Developer.png" alt="">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">BLOG</h2>
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Back End Developer</h1>
+            <p class="leading-relaxed mb-3">Back-end developers are the experts who build and maintain the mechanisms
+              that process data and perform actions on websites. Unlike front-end developers, who control everything you
+              can see on a website, back-end developers are involved in data storage, security, and other server-side
+              functions that you cannot see.</p>
+            <a class="text-indigo-500 inline-flex items-center">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <div class="text-center mt-2 leading-none flex justify-center absolute  bottom-0 left-0 w-full py-4">
+              <span
+                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/3 " data-aos="fade-right" data-aos-offset="400">
+          <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative   ">
+            <img class="w-96 h-48" src="https://www.spec-india.com/wp-content/uploads/2020/11/What-is-full-stack-developer.png" alt="">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">BLOG</h2>
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Full Stack Developer</h1>
+            <p class="leading-relaxed mb-3">A full-stack developer is a developer or engineer who can build both the
+              front end and the back end of a website. The front end (the parts of a website a user sees and interacts
+              with) and the back end (the behind-the-scenes data storage and processing) require different skill sets.
+            </p>
+            <a class="text-indigo-500 inline-flex items-center">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+              <span
+                class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- testimonial -->
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+        <div class="sm:w-1/2 mb-10 px-4 " data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" data-aos-offset="300" >
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://technodigitals.com/wp-content/uploads/2023/12/Become-Software-Development-768x512.jpg">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Full Stack Developer</h2>
+          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole
+            brunch, slow-carb neutra irony.</p>
+          <button
+            class="flex mx-auto mt-6 text-white bg-cyan-500 border-0 py-2 px-5 focus:outline-none hover:bg-cyan-700 rounded">Read
+            More</button>
+        </div>
+        <div class="sm:w-1/2 mb-10 px-4 " data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" data-aos-offset="300" >
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://media.istockphoto.com/id/1081869188/photo/the-life-of-a-programmer.jpg?s=170667a&w=0&k=20&c=eklFSNBsAZwqWtPtRj_t8KpmC_Rt0p6Ecaa67fOWZzY=">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Full Stack Developer</h2>
+          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole
+            brunch, slow-carb neutra irony.</p>
+          <button
+            class="flex mx-auto mt-6 text-white bg-cyan-500 border-0 py-2 px-5 focus:outline-none hover:bg-cyan-700 rounded">Read
+            More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- statics -->
+
+  <section class="text-gray-600 body-font bg-gray-100">
+    <div class="container px-5 py-24 mx-auto text-center">
+      <div class="flex flex-wrap -m-4 ">
+        <div class="p-4 sm:w-1/4 w-1/2">
+
+
+          <img class="inline" width="100px" height="100px" src="../project/userlogo.jpg" alt="">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+          <p class="leading-relaxed">Users</p>
+
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <img class="inline" width="100px" height="100px" src="../project/subscribe.jpg" alt="">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+          <p class="leading-relaxed">Subscribes</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <img class="inline" width="100px" height="100px" src="../project/download-logo.png" alt="">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+          <p class="leading-relaxed">Downloads</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <img class="inline" width="100px" height="100px" src="../project/product.png" alt="">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+          <p class="leading-relaxed">Products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- contact -->
+
+
+  <section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-700 rounded text-lg">Button</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div>
+    <hr class="w-full">
+  </div>
+
+  <!-- footer -->
+
+  <footer class="text-gray-600 body-font bg">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img width="100px" height="150px" src="https://alextass.com/wp-content/uploads/2021/05/Planets-space-ecosystem-O-M-letter-social-network-logo-design-by-Alex-Tass.png" alt="">
+          <span class=" text-xl">Portfolioweb</span>
+        </a>
+        <p class="mt-2 mb-4 text-sm text-gray-500  ml-[3rem] ">Air plant banjo lyft occupy retro adaptogen indego</p>
+        <i class="mt-4 fa-brands fa-facebook fa-xl ml-[3rem]  " style="color: #5c43a8;"></i>
+        <i class="fa-brands fa-square-whatsapp fa-2xl ml-[1rem] "></i>
+        <i class="fa-brands fa-square-instagram fa-2xl ml-[1rem]" style="color: #14294d;"></i>
+        
+  
+      </div>
+      <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Features</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Advanced Analytics</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Branded Links</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">QR Codes</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Personalization</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Team Collaboration</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Product</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Blog</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Brand</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Changelog</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Customers</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Enterprise</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Pricing</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Help Center</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Compare</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Bitly</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Rebrandly</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Short.io</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Privacy</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Tools</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Spotify Link Shortener</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">ChatGPT Link Shortener</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">GitHub Link Shortener</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Amazon Link Shortener</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Metatags API</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Link Inspector</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">QR Code API</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>

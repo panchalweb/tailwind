@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ab
+{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+}
+.box
+{
+    width: 100%;
+    height: 700px;
+    background-repeat: repeat;
+    background-image: url(https://wallpapers.com/images/featured/information-technology-background-yj5lntx9lzio3yiz.jpg); 
+    background-size: cover;
+    animation: image 10s linear 5s infinite;
+}
+@keyframes image {
+    0%
+    {
+        background-image: url(https://t4.ftcdn.net/jpg/01/18/44/93/360_F_118449314_J4Bvp6iLVF4l3BIkZxtblcUTFhSjVDmf.jpg);
+    }
+    25%
+    {
+        background-image: url(https://previews.123rf.com/images/wavebreakmediamicro/wavebreakmediamicro1403/wavebreakmediamicro140301416/26800504-the-word-technology-against-futuristic-black-and-blue-background.jpg);
+    }
+    50%
+    {
+        background-image: url(https://i.pinimg.com/originals/53/80/54/53805408f55688f764539b6e77876378.jpg);
+    }
+    100%
+    {
+        background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5448504.jpg);
+    }
+    
+}
+.swiper
+{
+    width: 100%;
+    height: 40vh;
+}
+.bg
+{
+    background-color: cornsilk;
+}
+
